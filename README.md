@@ -1,4 +1,4 @@
-# 📚 ChatBot del Código Nacional de Tránsito (Colombia)
+# 📚 API para implementacion de un ChatBot del Código Nacional de Tránsito (Colombia)
 
 Un sistema de preguntas y respuestas basado en IA que utiliza **RAG** (Retrieval-Augmented Generation) para proporcionar información precisa del Código Nacional de Tránsito Colombiano.
 
