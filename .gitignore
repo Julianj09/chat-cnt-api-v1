@@ -1,0 +1,39 @@
+# 🔒 Seguridad y variables de entorno
+.env
+*.env
+firebase-key.json
+*-key.json
+
+# 🐍 Entornos virtuales
+venv/
+.venv/
+
+# 🧠 Archivos autogenerados de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# 📦 Archivos de paquetes y dependencias
+*.egg-info/
+*.egg
+dist/
+build/
+
+# 🛠️ Archivos de IDE y configuración local
+.vscode/
+.idea/
+
+# 📄 Archivos temporales y de logs
+*.log
+*.sqlite
+*.tmp
+*.temp
+
+# 🧪 Directorios de pruebas (opcional)
+tests/
+
+# 🚫 Otros archivos innecesarios
+.DS_Store
+Thumbs.db
