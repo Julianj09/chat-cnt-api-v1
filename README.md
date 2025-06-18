@@ -29,7 +29,7 @@ Un sistema de preguntas y respuestas basado en IA que utiliza **RAG** (Retrieval
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/chat-cnt-api-v1.git
+git clone https://github.com/Julianj09/chat-cnt-api-v1.git
 cd chat-cnt-api
 ```
 
