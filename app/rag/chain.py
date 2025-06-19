@@ -6,7 +6,7 @@ from app.rag.loader import load_documents
 import os
 
 def create_chain():
-    """Crea y retorna la cadena QA de RAG completa."""
+    """Crea y retorna la cadena QA de RAG junto al modelo LLM."""
     try:
         documents = load_documents()
         chunks = split_documents(documents)
@@ -16,12 +16,11 @@ def create_chain():
         if not google_api_key:
             raise ValueError("GOOGLE_API_KEY no está configurada en las variables de entorno")
         
-        # CORRECCIÓN: Cambiar modelo a gemini-pro
         llm = ChatGoogleGenerativeAI(
-            model="gemini-2.0-flash",  # ¡Cambiado de gemini-1.0-pro a gemini-pro!
+            model="gemini-2.0-flash",
             google_api_key=google_api_key,
-            temperature=0.1,
-            max_output_tokens=1024
+            temperature=0.2,
+            max_output_tokens=720
         )
 
         qa_chain = RetrievalQA.from_chain_type(
@@ -31,7 +30,7 @@ def create_chain():
             return_source_documents=True
         )
 
-        return qa_chain
+        return qa_chain, llm
 
     except Exception as e:
         print(f"Error creando cadena QA: {str(e)}")

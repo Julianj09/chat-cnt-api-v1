@@ -1,0 +1,7 @@
+Hola, mi nombre es Julián Tabaco. En este documento quiero presentar el trabajo que hemos desarrollado junto a mis compañeros de proyecto, Yan y Juan, como parte de nuestra participación en la feria académica sobre tránsito colombiano organizada por nuestra institución.
+
+Nuestro proyecto forma parte del área de sistemas inteligentes, y tiene como objetivo facilitar el acceso a información oficial del Código Nacional de Tránsito de Colombia mediante el uso de inteligencia artificial. Se trata de una solución tecnológica basada en un modelo RAG (Retrieval-Augmented Generation), que combina capacidades de recuperación de documentos y generación de texto con lenguaje natural.
+
+Esta solución permite que cualquier persona pueda hacer preguntas relacionadas con normas, sanciones, procedimientos y disposiciones del tránsito colombiano, y reciba una respuesta clara y fundamentada, ya sea directamente desde los documentos oficiales o con apoyo del modelo de IA.
+
+Con este proyecto buscamos mejorar la educación vial, promover la consulta autónoma del Código de Tránsito, y demostrar cómo los sistemas inteligentes pueden aplicarse a contextos reales y normativos en beneficio de la sociedad.
